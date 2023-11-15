@@ -1,0 +1,22 @@
+<Project>
+
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <!-- Microsoft Packages -->
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+  </ItemGroup>
+
+  <!-- Microsoft MAUI Packages -->
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.Maui.Controls" Version="8.0.3" />
+    <PackageVersion Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.3" />
+    <PackageVersion Include="Microsoft.Maui.Essentials" Version="8.0.3" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="8.0.3" />
+  </ItemGroup>
+
+</Project>
